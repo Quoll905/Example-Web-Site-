@@ -1,0 +1,257 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: white !important;
+}
+
+.navbar-toggler{
+    border-color: black !important;
+    color: black;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.nav-link{
+    color: black;
+}
+
+.navbar-brand{
+    padding: 10px;
+    font-size: 2.5rem;
+}
+.navbar-brand_img{
+    margin: -80px;
+    margin-left: 0px;
+    width: 250px;
+}
+.call-to-action{
+    background-color: green;
+    border-radius: 10px;
+    color: white !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+.nav-item{
+    margin-right: 20px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner{
+    max-height: 80vh;
+}
+.carousel-item img{
+    height: 90vh;
+    margin-top: -30px;
+}
+.carousel-caption{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption h3{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    margin-top: -90px;
+}
+
+.contenitore-servizi{
+    background-color: rgba(255, 255, 255, 0.97);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card{
+    width: 37vw;
+    height: auto;
+    margin: 10px
+}
+
+.card1{
+    height: 320px;
+}
+
+.card1-img{
+    height: 320px;
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-overlay h5{
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px
+}
+
+.card-img-overlay:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.contenitore-servizi_contenitore-carte{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenitore-social{
+    background-color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.contenitore-social_icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenitore-social_icone a{
+    margin: 10px
+}
+.icoFacebook:hover, .icoTwitter:hover {
+	background-color:#3B5998;
+}
+.icoInstagram:hover{
+    background-color: rgb(189, 13, 13);
+}
+.icoFacebook:hover i , .icoInstagram:hover i, .icoTwitter:hover i{
+	color:#fff;
+}
+.icoInstagram i{
+    color: rgb(189, 13, 13);
+}
+
+.icoFacebook, .icoInstagram, .icoTwitter {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 60px;
+	height: 60px;
+	font-size:25px;
+	background-color: #D3D3D3;
+}
+.icoFacebook i , .icoInstagram i, .icoTwitter i{
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.contenitore_descrizione{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.footer{
+    margin-top: 50px;
+    height: 60px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.navbar-brand {
+    color: darkblue !important;
+    text-shadow: 1px 1px 10px lightblue, 0 0 25px lightblue, 0 0 10px blue;
+  }
+
+.contenitore-eventi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carta-eventi{
+    width: 80%;
+}
+
+.card-body-eventi{
+    text-align: center;
+    padding: 30px;
+}
+
+.card-body-eventi h3{
+    margin: 20px;
+}
+
+.bottone-lista-eventi{
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 130px;
+}
+
+.bottone-lista-eventi:hover{
+    transform: scale(1.2);
+    background-color: darkblue;
+}
+
+@media (max-width: 676px) {
+
+    *{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .navbar-brand_img{
+        transform: scale(0.70);
+        margin-left: -40px;
+    }
+
+    .carousel{
+        height: 40vh;
+    }
+
+    .card{
+        width: 80vw;
+        overflow: hidden;
+    }
+
+}
